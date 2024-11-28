@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+:root {
+    --stone1: hsl(30, 54%, 90%);
+    --stone2: hsl(30, 18%, 87%);
+    --stone3: hsl(30, 10%, 34%);
+    --stone4: hsl(24, 5%, 18%);
+    --brown: hsl(14, 45%, 36%);
+    --rose1: hsl(332, 51%, 32%);
+    --rose2: hsl(330, 100%, 98%);
+
+    --font-title: 'Young Serif';
+    --font-paragraph: 'Outfit';
+}
